@@ -27,7 +27,6 @@ const HelloWorldView: React.FC<IHelloWorldView> = ({
 
   useEffect(() => {
     setView(toggle);
-    console.log("view", view, "toggle", toggle);
   }, [toggle]);
 
   const preetyFormat = (line: string): string => {
