@@ -118,7 +118,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'perl',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423522-7151cbfb-2c79-4650-a2c7-211e14d4bf54.png',
+        logoLink: 'https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/perl.svg',
         code: `print "Hello World\\n";`
       },
       {
@@ -128,12 +128,12 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'r',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423503-2f6b0c74-0cc0-47a3-b73c-90c2488b0b33.png',
+        logoLink: 'https://user-images.githubusercontent.com/33158051/103333492-1d992100-4a3c-11eb-8cd4-e83cb2c44895.png',
         code: `print("Hello World")`
       },
       {
         language: 'haskell',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423514-7f1b5d3c-9a22-4b4f-b8d7-92adceac0ad9.png',
+        logoLink: './src/assets/logo/haskell.svg',
         code: `main = putStrLn "Hello World"`
       },
       {
@@ -162,27 +162,27 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'sql',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423528-c06e61a0-3273-4b4d-a092-39272f51d7c7.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png',
         code: `SELECT 'Hello World';`
       },
       {
         language: 'powershell',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423513-94b80ca0-f5d3-4fa3-8bbd-21adbd38eff2.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/PowerShell_Core_6.0_icon.png/121px-PowerShell_Core_6.0_icon.png',
         code: `Write-Output "Hello World"`
       },
       {
         language: 'clojure',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423511-9c06e18d-543d-4993-86f6-ec068221dc99.png',
+        logoLink: 'https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/clojure.svg',
         code: `(println "Hello World")`
       },
       {
         language: 'f#',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423526-871d2a57-3f48-4871-8eec-011d06f76b94.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/F_Sharp_logo.svg/128px-F_Sharp_logo.svg.png',
         code: `printfn "Hello World"`
       },
       {
         language: 'objective-c',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423504-38e34d19-76b8-4db1-8c24-872be8c9d2b7.png',
+        logoLink: './src/assets/logo/objectivec.svg',
         code: `
         #import <Foundation/Foundation.h>
         int main(int argc, const char * argv[]) {
@@ -194,7 +194,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'assembly',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423527-c738ebea-8f94-4856-b6bd-12f8e85c7ff2.png',
+        logoLink: 'https://raw.githubusercontent.com/github/explore/e495457f5ff28c343f9e422f8e3cf80fd3e80890/topics/assembly/assembly.png',
         code: `
         section .data
             hello db "Hello World", 0
@@ -226,7 +226,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'vb.net',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423531-19f77397-b2ef-40f0-8f29-061a9532db9b.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/mr/thumb/c/c5/VB.NET_LOGO.png/800px-VB.NET_LOGO.png?20130302053855',
         code: `
         Module HelloWorld
             Sub Main()
@@ -236,24 +236,24 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'shell (zsh)',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423502-09f89563-5a1c-4248-b54f-d037b920eb29.png',
+        logoLink: 'https://camo.githubusercontent.com/059a74a6f1b3dad47ca8852c5c22a53da40bbc0b4fdd163c4bec84487578dba1/68747470733a2f2f63646e2e737667706f726e2e636f6d2f6c6f676f732f7a73682e737667',
         code: `echo "Hello World"`
       },
       {
         language: 'prolog',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423529-6270b4a0-5130-42c0-b073-3c885d8f7488.png',
+        logoLink: './src/assets/logo/prolog.svg',
         code: `
         :- initialization(main).
         main :- write('Hello World'), nl.`
       },
       {
         language: 'nim',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423514-7f1b5d3c-9a22-4b4f-b8d7-92adceac0ad9.png',
+        logoLink: 'https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/nim-lang.svg',
         code: `echo "Hello World"`
       },
       {
         language: 'ada',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423505-9c6b1170-8e6c-4aaf-a8b1-280580dcb6b7.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ada_Mascot_slogan-Wikibooks.svg/557px-Ada_Mascot_slogan-Wikibooks.svg.png?20230428222128',
         code: `
         with Ada.Text_IO;
         procedure Hello_World is
@@ -263,12 +263,12 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'tcl',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423518-d5a437a6-c173-4ba4-bd4f-b87603b94eab.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Tcl-powered.svg/70px-Tcl-powered.svg.png',
         code: `puts "Hello World"`
       },
       {
         language: 'cobol',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423521-162931b8-8e28-472c-bf8c-31dd463ed40b.png',
+        logoLink: './src/assets/logo/cobol.svg',
         code: `
         IDENTIFICATION DIVISION.
         PROGRAM-ID. HelloWorld.
@@ -278,31 +278,31 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'smalltalk',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423522-7151cbfb-2c79-4650-a2c7-211e14d4bf54.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Smalltalk_Balloon.svg/150px-Smalltalk_Balloon.svg.png',
         code: `Transcript show: 'Hello World'; cr.`
       },
       {
         language: 'postscript',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423506-69c5a130-7d36-4564-8b70-74a3cb6a5c6c.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Adobe_PostScript_3_logo.svg/121px-Adobe_PostScript_3_logo.svg.png',
         code: `
         /HelloWorld (Hello World) def
         HelloWorld show`
       },
       {
         language: 'abap',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a869.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/125px-SAP_2011_logo.svg.png',
         code: `
         REPORT zhelloworld.
         WRITE 'Hello World'.`
       },
       {
         language: 'julia',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423510-69cc4b96-fb98-47a6-abb1-71a160ac6e42.png',
+        logoLink: 'https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/julia.svg',
         code: `println("Hello World")`
       },
       {
         language: 'd',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423530-3e6274da-ec40-41ba-a39f-a785d7c52e6e.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/D_Programming_Language_logo.svg/124px-D_Programming_Language_logo.svg.png',
         code: `
         import std.stdio;
         void main() {
@@ -311,29 +311,29 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'crystal',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423512-680de749-02f2-4b8e-9473-890d7b9f2a32.png',
+        logoLink: 'https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/crystal.svg',
         code: `puts "Hello World"`
       },
       {
         language: 'racket',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423520-a30a53fa-0a5c-481d-9c1d-62e3e7c6c3f4.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/121px-Racket-logo.svg.png',
         code: `
         #lang racket
         (displayln "Hello World")`
       },
       {
         language: 'ocaml',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423524-5782076f-40b4-4714-9373-12c6a0c2ef9a.png',
+        logoLink: 'https://avatars.githubusercontent.com/u/1841483?s=200&v=4',
         code: `print_endline "Hello World"`
       },
       {
         language: 'vbscript',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423531-19f77397-b2ef-40f0-8f29-061a9532db9b.png',
+        logoLink: 'https://upload.wikimedia.org/wikipedia/en/d/d8/VBSccript_file_format_icon.png',
         code: `MsgBox "Hello World"`
       },
       {
         language: 'brainfuck',
-        logoLink: 'https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a869.png',
+        logoLink: 'https://camo.githubusercontent.com/6b9d96e2d3257f4f28847e2879fd1a1edaf26a79215f84329f6ea84612a1ebab/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f63616761746179632f696d6167652f75706c6f61642f635f7363616c652c775f3530302f76313439333931343334342f62662e706e67',
         code: `++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
       }
 ]

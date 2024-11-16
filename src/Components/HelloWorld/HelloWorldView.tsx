@@ -15,6 +15,10 @@ interface Map {
 const codeHighlighter: Map = {
   "c++": "cpp",
   "c#": "csharp",
+  "f#": "fsharp",
+  "vb.net": "vbnet",
+  "shell (zsh)": "shell",
+  "objective-c": "objectivec"
 };
 
 const spacesToRemove = 8;
