@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/collection/collection.tsx","./src/components/helloworld/helloworldview.tsx","./src/context/sort.ts","./src/context/toggle.ts","./src/data/data.ts","./src/model/ihelloworld.ts"],"version":"5.6.3"}
