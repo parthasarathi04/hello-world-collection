@@ -1,0 +1,40 @@
+.hello-world{
+    min-width: 30vw;
+    max-width: 80vw;
+    margin: 3px;
+}
+
+.language {
+    width: 100%;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: rgb(64, 64, 64);
+
+    position: relative;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 3px;
+    
+    cursor: pointer;
+    font-family: "Barlow", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    width: 30px;
+    position: absolute;
+    left: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .logo{
+        display: none;
+    }
+}
