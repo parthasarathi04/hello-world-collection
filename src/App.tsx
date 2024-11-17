@@ -13,7 +13,7 @@ function App() {
         <span onClick={() => setToggle(!toggle)} title="Toggle">Hello</span>{" "}
         <span onClick={() => setSort(!sort)} title="Sort">World</span>
         
-      <p className="info">Click Hello to Toggle & World to Sort</p>
+      <p className="info">Click Hello/Language to Toggle & World to Sort</p>
       </h2>
       <ToggleContext.Provider value={toggle}>
         <SortContext.Provider value={sort}>

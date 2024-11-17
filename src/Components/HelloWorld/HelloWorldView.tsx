@@ -18,7 +18,7 @@ const codeHighlighter: Map = {
   "f#": "fsharp",
   "vb.net": "vbnet",
   "shell (zsh)": "shell",
-  "objective-c": "objectivec"
+  "objective-c": "objectivec",
 };
 
 const spacesToRemove = 8;
@@ -55,9 +55,14 @@ const HelloWorldView: React.FC<IHelloWorldView> = ({
           setView(!view);
         }}
       >
-        <object data={data.logoLink} type="image/png" className="logo">
-          <img src={data.logoLink} className="logo" />
-        </object>
+        <img
+          src={data.logoLink}
+          className="logo"
+          onError={(e) =>
+            ((e.target as HTMLOrSVGImageElement).style.display = "none")
+          }
+        />
+
         <strong>{data.language.toUpperCase()}</strong>
       </div>
       <div className={"code" + (view ? "" : " hide ")}>
