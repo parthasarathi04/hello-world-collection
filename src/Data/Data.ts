@@ -133,7 +133,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'haskell',
-        logoLink: './public/logo/haskell.svg',
+        logoLink: 'logo/haskell.svg',
         code: `main = putStrLn "Hello World"`
       },
       {
@@ -182,7 +182,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'objective-c',
-        logoLink: './public/logo/objectivec.svg',
+        logoLink: 'logo/objectivec.svg',
         code: `
         #import <Foundation/Foundation.h>
         int main(int argc, const char * argv[]) {
@@ -241,7 +241,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'prolog',
-        logoLink: './public/logo/prolog.svg',
+        logoLink: 'logo/prolog.svg',
         code: `
         :- initialization(main).
         main :- write('Hello World'), nl.`
@@ -268,7 +268,7 @@ export const HelloWorldData: IHelloWorld[] = [
       },
       {
         language: 'cobol',
-        logoLink: './public/logo/cobol.svg',
+        logoLink: 'logo/cobol.svg',
         code: `
         IDENTIFICATION DIVISION.
         PROGRAM-ID. HelloWorld.
